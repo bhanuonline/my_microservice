@@ -20,6 +20,13 @@
     <description>Microservice Services Parent</description>
     <version>1.0.0-SNAPSHOT</version>
 
+    <properties>
+        <debug.port>8020</debug.port>
+        <maven.test.skip>true</maven.test.skip>
+        <exec.maven.plugin.version>1.6.0</exec.maven.plugin.version>
+        <buildLocalDockerOnly>false</buildLocalDockerOnly>
+    </properties>
+
 
     <modules>
         <module>nps</module>
